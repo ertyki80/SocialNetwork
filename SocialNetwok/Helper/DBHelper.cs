@@ -14,7 +14,7 @@ namespace SocialNetwok.Context
             return new DBHelper(connectionString, databaseName);
         }
 
-        public static DBHelper CreateInstance(string connectionString, string databaseName)
+        public DBHelper CreateInstance(string connectionString, string databaseName)
         {
             return CreateInstance1(connectionString, databaseName);
         }

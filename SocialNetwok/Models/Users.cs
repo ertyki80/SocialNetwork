@@ -5,7 +5,7 @@ using MongoDB.Bson.Serialization.Attributes;
 namespace SocialNetwork.Models
 {
    
-    class Users
+    public class Users
     {
         [BsonId]
         public string Id { get; set; }
@@ -35,14 +35,14 @@ namespace SocialNetwork.Models
         public IEnumerable<Friend> Friends { get; set; }
         
     }
-    class Name
+    public class Name
     {
         [BsonElement("first")]
         public string First { get; set; }
         [BsonElement("last")]
         public string Last { get; set; }
     }
-    class Friend
+    public class Friend
     {
         [BsonElement("id")]
         public double First { get; set; }
