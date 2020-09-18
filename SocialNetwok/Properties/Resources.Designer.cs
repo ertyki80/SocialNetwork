@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SocialNetwok.Properties
+namespace SocialNetwork.Properties
 {
 
 
