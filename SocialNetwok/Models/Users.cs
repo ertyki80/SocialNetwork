@@ -45,8 +45,8 @@ namespace SocialNetwork.Models
     public class Friend
     {
         [BsonElement("id")]
-        public double First { get; set; }
+        public double Id { get; set; }
         [BsonElement("name")]
-        public string Last { get; set; }
+        public string Name { get; set; }
     }
 }
