@@ -18,7 +18,7 @@ namespace SocialNetwork.BusinessLogic.Service
 
         static DBHelper dbHelper;
 
-        UserService()
+        public UserService()
         {
             dbHelper.CreateInstance(connectionString, databaseName);
         }

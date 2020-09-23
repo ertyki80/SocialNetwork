@@ -21,6 +21,6 @@ namespace SocialNetwork.WinFormApp
         private void Register_Load(object sender, EventArgs e)
         {
 
-        }
+        } 
     }
 }

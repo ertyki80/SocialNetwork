@@ -13,11 +13,14 @@ namespace SocialNetwork.Models
         [BsonElement("isActive")]
         public bool IsActive { get; set; }
 
-        [BsonElement("age")]
-        public int Age { get; set; }
-
         [BsonElement("name")]
         public Name Name { get; set; }
+
+
+        [BsonElement("password")]
+        public string Password { get; set; }
+
+
 
         [BsonElement("email")]
         public string Email { get; set; }

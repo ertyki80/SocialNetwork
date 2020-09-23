@@ -48,6 +48,7 @@ namespace SocialNetwork.WinFormApp
             this.button1.TabIndex = 7;
             this.button1.Text = "Submite";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
             // 
@@ -55,6 +56,7 @@ namespace SocialNetwork.WinFormApp
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(188, 20);
             this.textBox2.TabIndex = 6;
+            this.textBox2.Click += new System.EventHandler(this.textBox2_Click);
             // 
             // textBox1
             // 
