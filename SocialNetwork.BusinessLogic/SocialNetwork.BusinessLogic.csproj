@@ -47,7 +47,9 @@
     <Compile Include="Service\PostsService.cs" />
     <Compile Include="Service\UserService.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Helpers\" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SocialNetwok\SocialNetwork.DataAccess.csproj">
       <Project>{4310dc81-49ee-42ee-86bc-a90f1aadf08f}</Project>

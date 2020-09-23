@@ -8,7 +8,7 @@ using SocialNetwork.Models;
 
 namespace SocialNetwork.BusinessLogic.Interfaces
 {
-    interface IUserService
+    public interface IUserService
     {
         Users GetUser(Guid id);
         List <Users> GetAllUsers();

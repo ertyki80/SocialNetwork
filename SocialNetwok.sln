@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1259
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30516.212
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.DataAccess", "SocialNetwok\SocialNetwork.DataAccess.csproj", "{4310DC81-49EE-42EE-86BC-A90F1AADF08F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.BusinessLogic", "SocialNetwork.BusinessLogic\SocialNetwork.BusinessLogic.csproj", "{B0947801-0F87-4E38-94FA-F7894C5845D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetwork.WinFormApp", "SocialNetwork.WinFormApp\SocialNetwork.WinFormApp.csproj", "{0743B76B-07B4-45B9-92B4-C59B127ADFF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B0947801-0F87-4E38-94FA-F7894C5845D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0947801-0F87-4E38-94FA-F7894C5845D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0947801-0F87-4E38-94FA-F7894C5845D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0743B76B-07B4-45B9-92B4-C59B127ADFF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0743B76B-07B4-45B9-92B4-C59B127ADFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0743B76B-07B4-45B9-92B4-C59B127ADFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0743B76B-07B4-45B9-92B4-C59B127ADFF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
